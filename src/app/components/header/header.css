@@ -1,6 +1,5 @@
 .header
 {
-    /* background-color: lightblue; */
     height: 10vh;
     width: 100%;
     display:flex;
@@ -9,6 +8,17 @@
     padding:0.5em;
     color: #7FFFD4 !important;
     padding: 0 2em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header.scrolled {
+  color: #000 !important;
+  background-color: #222;/* new color when scrolled over projects */
 }
 
 .nav-links a

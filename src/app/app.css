@@ -25,3 +25,7 @@
     margin: 10px;
     cursor: pointer;
 }
+
+.header.scrolled {
+  color: #000; /* new color when scrolled over projects */
+}

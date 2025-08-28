@@ -1,9 +1,8 @@
-<app-header> 
+<app-header [isScrolled]="isScrolledOverProjects">
 </app-header>
-
 <!-- <div class="alert alert-success">Bootstrap is working!</div> -->
 
-<div class="content">
+<div class="content" id="home">
   <!-- <router-outlet></router-outlet> -->
    <div class="row">
       <div class="col-sm-6 left">
@@ -29,7 +28,7 @@
 <app-about> 
 </app-about>
 
-<app-projects> 
+<app-projects (scrolledOver)="isScrolledOverProjects = $event">
 </app-projects>
 
 <app-footer> 
