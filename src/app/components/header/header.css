@@ -1,0 +1,29 @@
+.header
+{
+    /* background-color: lightblue; */
+    height: 10vh;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.5em;
+    color: #7FFFD4 !important;
+    padding: 0 2em;
+}
+
+.nav-links a
+{
+    margin: 0 1em;
+    text-decoration: none;
+    /* color: darkblue; */
+    font-weight: bold;
+    color: #7FFFD4 !important;
+}
+
+.logo a
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #7FFFD4 !important;
+}
